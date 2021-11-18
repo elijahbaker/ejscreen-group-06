@@ -26,17 +26,15 @@ ggplot(data = ces,
        aes(x = white_percent, 
            y = ces_3_0_score)) +
   geom_hex() +
+  scale_fill_gradient(low = "black", 
+                      high = "blue")+
+  theme_minimal() +
   labs(x="Percent of white-identifying individuals",
        y= "CalEnviroScreen 3.0 score",
        title= "CalEnviroScreen 3.0 Score Compared With Precentage of White-idenitfied Individuals")
 
 ```
 
-Customize the graph in two ways:
-Change the graph type to a 2D hexbin (geom_hex)
-Update with appropriate axis labels 
-Stage, commit, pull, then push changes
-Let your partner know you made the update
 ```{r}
 
 
