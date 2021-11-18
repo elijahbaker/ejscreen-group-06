@@ -22,7 +22,7 @@ ces<- read_csv(here("data", "ces3demographics.csv")) %>%
 ```
 
 
-```{r}
+```{r fig.cap="Figure 1. A hexplot showing the relationship between environmental pollution and percent white populaiton, where a higher CalEnviroScreen 3.0 score indicates greater environmental pollution."}
 ggplot(data = ces, 
        aes(x = white_percent, 
            y = ces_3_0_score)) +
