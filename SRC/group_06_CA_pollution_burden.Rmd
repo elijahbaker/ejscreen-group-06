@@ -36,7 +36,7 @@ ggplot(data = ces,
 
 ```
 
-The overall trend we can observe is that as white-identifying populations reach approximately 75%, they experience low CalEnviroScreen scores between 5-15; whereas white-identifying populations closer to 0% experience a greater likelihood of scores between 45-55.
+The overall trend we can observe is that as white-identifying populations reach approximately 75%, they experience low CalEnviroScreen scores (between 5-15); whereas communities with white-identifying populations closer to 0% experience a greater likelihood of scores between 45-55.
 
 ## Citation
 
