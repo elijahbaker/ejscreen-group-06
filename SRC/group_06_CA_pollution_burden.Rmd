@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 ```
 
 ```{r}
@@ -21,6 +21,7 @@ ces<- read_csv(here("data", "ces3demographics.csv")) %>%
   clean_names()
 ```
 
+
 ```{r}
 ggplot(data = ces, 
        aes(x = white_percent, 
@@ -32,12 +33,6 @@ ggplot(data = ces,
   labs(x="Percent of white-identifying individuals",
        y= "CalEnviroScreen 3.0 score",
        title= "CalEnviroScreen 3.0 Score Compared With Precentage of White-idenitfied Individuals")
-
-```
-
-```{r}
-
-
 
 ```
 
